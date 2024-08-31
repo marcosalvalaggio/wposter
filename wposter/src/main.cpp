@@ -52,6 +52,9 @@ int main(int argc, char* argv[]) {
     else if (command == "--help" || command == "-h") { // help branch    utils::help();
         utils::help();
     }
+    else if (command == "--version" || command == "-v") {
+        std::cout << "wposter 0.0.1" << std::endl;
+    }
     else { // error branch
         utils::help();
     }
