@@ -74,15 +74,15 @@ namespace poster {
         if (path == "") {
             return;
         }
-        std::cout << path << std::endl;
+        // std::cout << path << std::endl;
         std::wstring pathWstr = stringToWstring(path);
         const wchar_t* targetPath = pathWstr.c_str();
-        std::wcout << "target path: " << targetPath << std::endl;
-        const wchar_t* testPath = L"C:\\Users\\marsa\\Documents\\wallpaper\\lana.png";
-        std::wcout << "test path: " << testPath << std::endl;
+        // std::wcout << "target path: " << targetPath << std::endl;
+        // const wchar_t* testPath = L"C:\\Users\\marsa\\Documents\\wallpaper\\lana.png";
+        // std::wcout << "test path: " << testPath << std::endl;
         // pathWstr.c_str() to get const wchar_t*
         int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, (void*)targetPath, SPIF_UPDATEINIFILE);
-        std::cout << "Result: " << result << std::endl;
+        // std::cout << "Result: " << result << std::endl;
     }
 
     void deleteWallpaper(const std::string& targetName) {
