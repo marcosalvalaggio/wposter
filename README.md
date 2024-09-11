@@ -1,5 +1,7 @@
 ## WPOSTER
 
+![](example.gif)
+
 The *wposter* CLI started as a weekend project before returning to work. What I needed was a CLI tool that allows me to change the wallpaper on my Windows machine. I wanted a way to visually separate my development environment from my work environment. During work hours, I usually collaborate with colleagues, and I prefer not to display my personal setup for after-hours development.
 
 ### Build from Source
